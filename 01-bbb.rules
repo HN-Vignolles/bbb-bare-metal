@@ -1,1 +1,1 @@
-SUBSYSTEM=="net", ACTION=="add", ATTRS{idProduct}=="6141", ATTRS{idVendor}=="0451", RUN+="ip addr add 192.168.9.1/24 dev $name"
+SUBSYSTEM=="net", ACTION=="add", ATTRS{idProduct}=="6141", ATTRS{idVendor}=="0451", RUN+="ip addr add 192.168.8.1/24 dev $name"
