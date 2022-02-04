@@ -1,4 +1,3 @@
-# BareMetal-BBB
 Bare Metal Application on the BeagleBone<br>
 We are using BOOTP (Bootstrap Protocol) and TFTP to transfer a Boot image (binary) and run it.
 *The boot image is downloaded directly into internal RAM at the location 0x402F0400 on GP devices. The maximum size of downloaded image is 109 KB.*
